@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Score>
+  <Producer>
+     <Name> SAS Enterprise Miner </Name>
+     <Version> 6.2 </Version>
+     <Locale> ru_RU </Locale>
+     <Encoding> wcyrillic </Encoding>
+  </Producer>
+  <Input count="12">
+     <Variable index="0">
+        <Name> CLAGE </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Age of oldest credit line in months]]>
+        </Description>
+     </Variable>
+     <Variable index="1">
+        <Name> CLNO </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Number of credit lines]]>
+        </Description>
+     </Variable>
+     <Variable index="2">
+        <Name> DEBTINC </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Debt-to-income ratio]]>
+        </Description>
+     </Variable>
+     <Variable index="3">
+        <Name> DELINQ </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Number of delinquent credit lines]]>
+        </Description>
+     </Variable>
+     <Variable index="4">
+        <Name> DEROG </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Number of major derogatory reports]]>
+        </Description>
+     </Variable>
+     <Variable index="5">
+        <Name> JOB </Name>
+        <Type length="7"> C </Type>
+        <Description>
+           <![CDATA[Occupational category]]>
+        </Description>
+     </Variable>
+     <Variable index="6">
+        <Name> LOAN </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Requested loan amount]]>
+        </Description>
+     </Variable>
+     <Variable index="7">
+        <Name> MORTDUE </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Amount due on existing mortgage]]>
+        </Description>
+     </Variable>
+     <Variable index="8">
+        <Name> NINQ </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Number of recent credit inquiries]]>
+        </Description>
+     </Variable>
+     <Variable index="9">
+        <Name> REASON </Name>
+        <Type length="7"> C </Type>
+        <Description>
+           <![CDATA[DebtCon = debt consolidation; HomeImp = home improvement]]>
+        </Description>
+     </Variable>
+     <Variable index="10">
+        <Name> VALUE </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Value of current property]]>
+        </Description>
+     </Variable>
+     <Variable index="11">
+        <Name> YOJ </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Years at present job]]>
+        </Description>
+     </Variable>
+  </Input>
+  <Output count="8">
+     <Variable index="0">
+        <Name> EM_CLASSIFICATION </Name>
+        <Type length="32"> C </Type>
+        <Description>
+           <![CDATA[Prediction for BAD]]>
+        </Description>
+     </Variable>
+     <Variable index="1">
+        <Name> EM_EVENTPROBABILITY </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Probability for level 1 of BAD]]>
+        </Description>
+     </Variable>
+     <Variable index="2">
+        <Name> EM_PROBABILITY </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Probability of Classification]]>
+        </Description>
+     </Variable>
+     <Variable index="3">
+        <Name> I_BAD </Name>
+        <Type length="12"> C </Type>
+        <Description>
+           <![CDATA[Into: BAD]]>
+        </Description>
+     </Variable>
+     <Variable index="4">
+        <Name> P_BAD0 </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Predicted: BAD=0]]>
+        </Description>
+     </Variable>
+     <Variable index="5">
+        <Name> P_BAD1 </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Predicted: BAD=1]]>
+        </Description>
+     </Variable>
+     <Variable index="6">
+        <Name> U_BAD </Name>
+        <Type> N </Type>
+        <Description>
+           <![CDATA[Unnormalized Into: BAD]]>
+        </Description>
+     </Variable>
+     <Variable index="7">
+        <Name> _WARN_ </Name>
+        <Type length="4"> C </Type>
+        <Description>
+           <![CDATA[Warnings]]>
+        </Description>
+     </Variable>
+  </Output>
+</Score>
