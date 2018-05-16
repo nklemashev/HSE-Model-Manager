@@ -1,0 +1,5 @@
+<Test3>
+	<parameters>
+		<input>LOAN:16400|MORTDUE:58664|VALUE:89589|REASON:"DebtCon"|JOB:"Office"|YOJ:27|DEROG:0|DELINQ:0|CLAGE:211.44110206|NINQ:0|CLNO:21|DEBTINC:34.256364885</input>
+	</parameters>
+</Test3>
